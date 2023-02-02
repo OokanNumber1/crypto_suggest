@@ -1,11 +1,9 @@
 # crypto_suggest
+The main use of this app is to provide basic information of crypto tokens rather than get lost in information provided on CoinMarketCap website.
 
-A new Flutter project.
+This app uses data from CoinMarketCap API, I used Dart to do :
+- sorting of top gainers and losers.
+- sorting according to timeframes (1 day, 7 days and 30 days).
+- adding tokens as favourites by saving its id to the local storage of the device. 
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Link to .apk file](https://drive.google.com/file/d/1YhzDgPpzL3MaJco4NqlMoCOKlJ0RrLAF/view?usp=drivesdk)
+[Link to .apk file](https://drive.google.com/file/d/1YhzDgPpzL3MaJco4NqlMoCOKlJ0RrLAF/view?usp=drivesdk)
