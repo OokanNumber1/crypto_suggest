@@ -1,8 +1,5 @@
-import 'dart:io';
 import 'package:crypto_suggest/src/features/favourites_token/viewmodel/favourite_viewmodel.dart';
 import 'package:crypto_suggest/src/features/token/viewmodels/token_viewmodel.dart';
-import 'package:crypto_suggest/src/fixtures/cmc_new_response.dart';
-//import 'package:crypto_suggest/src/features/favourites/viewmodel/favourite_viewmodel.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:intl/intl.dart';

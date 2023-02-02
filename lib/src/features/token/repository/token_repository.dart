@@ -23,8 +23,6 @@ class TokenRepository {
   Future<List<CmcToken>> getAllTokens() async {
     try {
       List decodedResponse = await networkService.get(tokenUrl);
-      await storageService.save(
-          key: AppStrings.tokensKey, value: decodedResponse);
       List<CmcToken> serialisedResponse =
           decodedResponse.map((token) => CmcToken.fromJson(token)).toList();
       return serialisedResponse;

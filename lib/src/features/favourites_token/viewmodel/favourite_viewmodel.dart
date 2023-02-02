@@ -1,5 +1,4 @@
 import 'package:crypto_suggest/src/constants/app_strings.dart';
-import 'package:crypto_suggest/src/features/token/model/cmc_token.dart';
 import 'package:crypto_suggest/src/services/storage_service.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:get_storage/get_storage.dart';

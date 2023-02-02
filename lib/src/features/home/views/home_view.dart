@@ -13,8 +13,6 @@ class HomeView extends ConsumerWidget {
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
-    /// to get access to the favouriteLocalList at the lauch of the app
-    //.read(favouriteChangeViewmodel).getfavouriteList();
     // getting the favourite Ids before they could
     // be requested for.
      ref.watch(favouriteVmProvider.notifier).getfavouriteIds();
